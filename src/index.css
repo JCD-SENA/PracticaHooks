@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+
+	Usé tanto CSS cómo Tailwind
+
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+input, textarea {
+	padding: 1px;
+	border: solid 1px black;
+}
+
+p {
+	overflow-wrap: anywhere;
+}
+
+button, input[type=submit] {
+	color: white;
+	padding: 5px;
+	border-radius: 2px;
+	background-color: black;
+}
+
+button {
+	width: 10%;
+}
+
+main {
+	height: 90vh;
+}
+
+main > *, form > * {
+	margin: 5px;
+}
